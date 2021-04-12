@@ -1,5 +1,7 @@
 body {
   text-align:center;
+    margin:0;
+    padding-top:800px;
   background:linear-gradient( #9ff5f2 0%, #2ea6a2 100%)
 }
 h1 {
@@ -11,10 +13,6 @@ h1 {
   font-size:18px;
   text-align:center;
 }
-ul {
-text-align:right;
-display:inline;
-}
 li{
     display: inline;
     float: right;
@@ -23,4 +21,25 @@ li{
 }
 li a:hover{
     background-color:#cf3a5d;
+}
+.line {
+    height:6px;
+    background-color:aquamarine;
+    width:70px;
+    margin:8px auto;
+}
+.menu {
+    position:fixed;
+    background:white;
+    width:100%;
+    margin-top:0px;
+    top:0px;
+    z-index:10;
+}
+.link {
+    display:inline;
+    padding-left:33px;
+    padding-right:25px;
+    font-family: fantasy;
+    font-size:20px;
 }
